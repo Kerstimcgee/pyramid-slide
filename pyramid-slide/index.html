@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <style>
+#background-color {
+    background-color:yellowgreen;
+    padding-top: 8px;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+
+#body {
+    font-family: "Courier New", monospace;
+    text-align: center;
+    margin: 0;
+    background-color: yellowgreen;
+    color: black ;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#heading {
+        font-family: "Courier New", monospace;
+        background-color: purple;
+        text-align: center;
+        color: white;
+        padding-top: 25px;
+        margin: 0;
+        padding-bottom: 25px;
+
+}
+<meta charset="utf-8"/>
+</style>
+</head>
+ 
+<h1 id="heading"><strong>Pyramid Slide</strong></h1>
+    <p id="background-color">
+<body> 
+    <h4 id="body">Brick Symbol:
+    <select id="brick-symbol" type="text" onchange="switchSymbol()">
+          <option value="#" selected="selected" >#</option>
+          <option value="@" selected="selected">@</option>
+          <option value="X" selected="selected">X</option>
+          <option value="$" selected="selected">$</option>
+    </select>
+</h4>
+
+    <div id="brickSymbolDiv"></div>
+    
+    <h4 id="body">Draw Pyramid 
+    
+    <input type="range" min="0" max="50" step="1" value="5" id="slider-adjusted" 
+    list="tickmarks" oninput="drawPyramid()"/>
+    <div class="pyramid" div>
+    <h1><div id="pyramid"></div></h1>
+    </h4>
+    
+       
+    <script src="pyramid-slide.js"></script>
+</body>
+<footer id="body"><a href="https://www.linkedin.com/in/kersti-mcgee/">K. McGee, 2018 </a></footer>
+</html>

@@ -1,0 +1,10 @@
+var pyramidDiv = document.getElementById("slider-adjusted").value;
+    while (pyramidDiv.firstChild) 
+        pyramidDiv.removeChild(pyramidDiv.firstChild);
+    
+    console.log(pyramidDiv);
+    // for each row....
+    inputValue = pyramidDiv
+    for (let line = "slider-adjusted"; 
+    line.length < pyramidDiv; line += switchSymbol());
+    console.log(this.line);

@@ -1,0 +1,17 @@
+#background-color {
+    background-color:yellowgreen;
+}
+
+#body {
+    font-family: "Courier New", monospace;
+    text-align: left;
+    float: left;
+    background-color: yellowgreen;
+}
+
+#heading {
+        font-family: "Courier New", monospace;
+        background-color: purple;
+        text-align: center;
+
+}
